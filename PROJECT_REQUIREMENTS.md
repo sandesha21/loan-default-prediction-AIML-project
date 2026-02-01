@@ -4,6 +4,8 @@
 
 This capstone project focuses on predicting loan defaults using machine learning techniques. The goal is to build a predictive model that can identify borrowers who are likely to default on their home equity loans.
 
+---
+
 ## Problem Definition
 
 ### The Context
@@ -27,6 +29,8 @@ Develop a machine learning model to predict whether a loan applicant will defaul
 This is a binary classification problem where we need to predict:
 - **Target Variable (BAD)**: 1 = Client defaulted on loan, 0 = loan repaid
 - **Input Features**: 12 financial and demographic variables
+
+---
 
 ## Dataset Description
 
@@ -53,6 +57,8 @@ This is a binary classification problem where we need to predict:
 | **NINQ** | Number of recent credit inquiries | Discrete |
 | **CLNO** | Number of existing credit lines | Discrete |
 | **DEBTINC** | Debt-to-income ratio | Continuous |
+
+---
 
 ## Technical Requirements
 
@@ -110,6 +116,8 @@ This is a binary classification problem where we need to predict:
 4. **Model evaluation report**
 5. **Business insights and recommendations**
 
+---
+
 ## Success Criteria
 
 ### Model Performance Targets
@@ -123,6 +131,8 @@ This is a binary classification problem where we need to predict:
 - Provide actionable insights for loan approval process
 - Demonstrate cost-benefit analysis of model implementation
 - Recommend optimal decision threshold for business use
+
+---
 
 ## Project Structure
 
@@ -146,12 +156,16 @@ loan-default-prediction/
 └── README.md
 ```
 
+---
+
 ## Timeline and Milestones
 
 1. **Week 1**: Data exploration and preprocessing
 2. **Week 2**: Feature engineering and initial modeling
 3. **Week 3**: Model optimization and hyperparameter tuning
 4. **Week 4**: Final evaluation, documentation, and presentation
+
+---
 
 ## Risk Factors and Mitigation
 
@@ -164,6 +178,8 @@ loan-default-prediction/
 - **Overfitting**: Use cross-validation and regularization
 - **Feature Selection**: Apply statistical tests and domain knowledge
 - **Model Interpretability**: Ensure business stakeholders can understand model decisions
+
+---
 
 ## Frequently Asked Questions (FAQs)
 
@@ -387,6 +403,8 @@ A: Implement:
 - Feature selection methods
 - Early stopping for iterative algorithms
 - Validation on holdout test set
+
+---
 
 ## Compliance and Ethics
 
